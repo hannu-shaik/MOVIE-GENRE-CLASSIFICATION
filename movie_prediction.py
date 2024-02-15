@@ -186,4 +186,3 @@ print(classification_report(val_label, predict))
 svm_accuracy = accuracy_score(predict,val_label)
 print('SVC model accuracy is: {:.2f}%'.format(svm_accuracy*100))
 
-!kaggle kernels output karimasobhi/movie-genre-classification -p /path/to/dest
